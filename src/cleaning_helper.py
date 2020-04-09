@@ -31,7 +31,7 @@ def lacounty_daily_text_2_table2(text_list):
 def find_LB_or_PD(raw_data, city):
     # Get case information of Long Beach and Pasadena which are reported seperately
     out_list = []
-    for item in out:
+    for item in raw_data:
         temp_lst = [item[1].split("\r\n\t")[1]]
         if len(item[2]) > 0:
             out_lst = []
