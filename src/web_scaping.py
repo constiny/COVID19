@@ -25,17 +25,18 @@ class webscrap:
 
     # Start web scraping session
     def start(self, random_headers = False):
-        default_header = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36"
 
         if random_headers:
             header = {'User-Agent': random.choice(headers_list) }
         else:
-            header = {'User-Agent': default_header}
-        self.response = requests.get(self.url, headers = header)    
-        if self.response.status_code == 200:
-            print("Connect successfully1")
+            header = {'User-Agent': headers_list[0]}
+        self.response = requests.get(self.url, headers = header)
+        code = self.response.status_code    
+        if code == 200:
+            # print("Connect successfully1")
+            pass
         else:
-            print("Not well connected!")
+            print(f"{code} Error! Not well connected!")
         return None
     
     # Grab index table in page as a list
