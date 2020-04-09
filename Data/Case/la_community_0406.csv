@@ -2,7 +2,7 @@
 0,City of Agoura Hills,18,18,17,16,14,10,11,9,9,9,6,Agoura Hills,5,3,3,1,
 1,City of Alhambra,22,21,19,17,15,13,13,11,10,10,8,Alhambra,8,6,5,4,3
 2,City of Arcadia,16,14,13,13,12,12,10,9,9,8,6,Arcadia,6,4,4,3,2
-3,City of Artesia,--,--,--,--,--,--,--,--,--,--,--,Artesia,,,,,
+3,City of Artesia,0,0,0,0,0,0,0,0,0,0,0,Artesia,,,,,
 4,City of Avalon,0,0,0,0,0,0,0,0,0,0,0,Avalon,,,,,
 5,City of Azusa,13,13,8,8,8,7,5,3,2,1,1,Azusa,1,,,,
 6,City of Baldwin Park,11,10,9,7,5,3,2,0,0,0,0,Baldwin Park,,,,,
@@ -16,38 +16,38 @@
 14,City of Carson,93,83,69,63,55,44,39,35,28,26,21,Carson,21,9,8,6,4
 15,City of Cerritos,23,20,15,11,10,8,6,5,4,1,1,Cerritos,2,2,2,2,2
 16,City of Claremont,6,5,3,4,3,3,2,1,1,1,1,Claremont,1,1,1,,
-17,City of Commerce,0,0,0,0,0,--,--,--,0,0,0,Commerce,,,,,
+17,City of Commerce,0,0,0,0,0,0,0,0,0,0,0,Commerce,,,,,
 18,City of Compton,36,34,31,26,24,19,16,13,11,9,7,Compton,5,2,1,1,
 19,City of Covina,22,18,14,11,11,9,7,8,6,3,3,Covina,4,3,3,1,1
-20,City of Cudahy,16,15,12,10,9,8,--,--,--,--,--,Cudahy,,,,,
+20,City of Cudahy,16,15,12,10,9,8,0,0,0,0,0,Cudahy,,,,,
 21,City of Culver City,27,26,23,20,19,17,15,14,9,7,6,Culver City,8,6,7,5,4
 22,City of Diamond Bar,13,12,11,8,7,6,3,3,3,2,2,Diamond Bar,2,2,2,2,2
 23,City of Downey,71,68,52,47,43,37,31,25,19,18,12,Downey,10,5,1,,
-24,City of Duarte,--,--,--,--,--,--,--,--,--,--,--,Duarte,2,1,1,1,
+24,City of Duarte,0,0,0,0,0,0,0,0,0,0,0,Duarte,2,1,1,1,
 25,City of El Monte,21,18,12,10,7,6,4,1,0,0,0,El Monte,,,,,
-26,City of El Segundo,7,7,6,5,--,--,--,--,--,--,--,El Segundo,2,2,2,1,1
+26,City of El Segundo,7,7,6,5,0,0,0,0,0,0,0,El Segundo,2,2,2,1,1
 27,City of Gardena,30,30,23,20,17,14,12,7,6,6,5,Gardena,4,1,1,1,1
 28,City of Glendale,142,129,118,103,93,86,76,62,46,36,29,Glendale,23,12,10,9,6
 29,City of Glendora,16,14,11,10,7,7,7,6,6,4,4,Glendora,2,2,1,1,1
-30,City of Hawaiian Gardens,--,--,--,--,--,--,--,--,--,--,--,Hawaiian Gardens,,,,,
+30,City of Hawaiian Gardens,0,0,0,0,0,0,0,0,0,0,0,Hawaiian Gardens,,,,,
 31,City of Hawthorne,44,39,32,30,26,22,19,13,11,11,7,Hawthorne,9,8,6,3,2
-32,City of Hermosa Beach,18,17,17,17,15,12,9,7,6,--,--,Hermosa Beach,,,,,
+32,City of Hermosa Beach,18,17,17,17,15,12,9,7,6,0,0,Hermosa Beach,,,,,
 33,City of Hidden Hills,0,0,0,0,0,0,0,0,0,0,0,Hidden Hills,,,,,
 34,City of Huntington Park,29,26,20,16,15,13,11,4,2,2,0,Huntington Park,,,,,
-35,City of Industry,--,--,0,0,0,0,0,0,0,0,0,Industry,,,,,
+35,City of Industry,0,0,0,0,0,0,0,0,0,0,0,Industry,,,,,
 36,City of Inglewood,78,69,62,55,44,37,31,26,20,14,12,Inglewood,12,5,5,3,3
 37,City of Irwindale,0,0,0,0,0,0,0,0,0,0,0,Irwindale,,,,,
 38,City of La Canada Flintridge,14,14,11,9,8,8,8,8,7,7,5,La Canada Flintridge,6,3,2,2,1
-39,City of La Habra Heights,0,0,0,0,0,0,0,0,0,0,--,La Habra Heights,,,,,
+39,City of La Habra Heights,0,0,0,0,0,0,0,0,0,0,0,La Habra Heights,,,,,
 40,City of La Mirada,16,15,13,11,11,9,8,7,7,6,5,La Mirada,5,4,3,3,3
 41,City of La Puente,13,12,11,8,7,6,3,3,3,2,1,La Puente,1,,1,,
 42,City of La Verne,7,7,4,2,2,2,2,2,1,1,1,La Verne,2,2,2,2,2
 43,City of Lakewood,32,29,28,24,21,18,16,13,12,11,8,Lakewood,7,4,3,1,1
 44,City of Lancaster,61,51,43,38,33,32,31,27,23,19,18,Lancaster,16,13,8,7,4
 45,City of Lawndale,16,13,10,10,8,7,6,4,4,3,2,Lawndale,2,1,2,2,1
-46,City of Lomita,11,9,7,6,--,--,--,--,--,--,0,Lomita,12,9,9,8,8
+46,City of Lomita,11,9,7,6,0,0,0,0,0,0,0,Lomita,12,9,9,8,8
 47,City of Lynwood,43,37,28,23,21,20,18,16,14,13,8,Lynwood,6,3,2,2,2
-48,City of Malibu,9,8,8,7,5,--,--,--,--,--,--,Malibu,,,,,
+48,City of Malibu,9,8,8,7,5,0,0,0,0,0,0,Malibu,,,,,
 49,City of Manhattan Beach,48,46,46,45,43,41,40,31,27,23,22,Manhattan Beach,21,17,11,9,7
 50,City of Maywood,17,15,14,10,10,8,6,5,4,2,1,Maywood,1,,,,
 51,City of Monrovia,12,11,9,8,7,7,5,4,4,4,4,Monrovia,2,,,,
@@ -61,19 +61,19 @@
 59,City of Pomona,30,24,24,22,15,13,10,5,4,4,4,Pomona,3,1,,,
 60,City of Rancho Palos Verdes,33,28,27,22,20,16,13,10,8,8,7,Rancho Palos Verdes,6,5,3,1,1
 61,City of Redondo Beach,67,64,62,60,54,50,39,34,29,24,23,Redondo Beach,20,9,7,5,4
-62,City of Rolling Hills,--,--,0,0,0,0,0,0,0,0,0,Rolling Hills,,,,,
-63,City of Rolling Hills Estates,8,8,7,5,5,--,--,--,--,--,--,Rolling Hills Estates,,,,,
+62,City of Rolling Hills,0,0,0,0,0,0,0,0,0,0,0,Rolling Hills,,,,,
+63,City of Rolling Hills Estates,8,8,7,5,5,0,0,0,0,0,0,Rolling Hills Estates,,,,,
 64,City of Rosemead,9,8,6,5,3,3,2,2,2,1,0,Rosemead,,,,,
 65,City of San Dimas,13,9,7,6,6,5,4,3,3,2,1,San Dimas,1,1,1,1,1
-66,City of San Fernando,12,9,8,6,5,5,--,--,--,0,0,San Fernando,3,3,2,1,1
+66,City of San Fernando,12,9,8,6,5,5,0,0,0,0,0,San Fernando,3,3,2,1,1
 67,City of San Gabriel,11,10,7,7,7,6,6,6,6,6,5,San Gabriel,3,1,1,,
-68,City of San Marino,5,5,5,--,--,--,--,--,--,--,--,San Marino,,,,,
+68,City of San Marino,5,5,5,0,0,0,0,0,0,0,0,San Marino,,,,,
 69,City of Santa Clarita,106,102,89,78,65,50,48,41,38,32,24,Santa Clarita,16,10,7,7,4
-70,City of Santa Fe Springs,--,--,--,--,--,--,--,0,0,0,0,Santa Fe Springs,,,,,
+70,City of Santa Fe Springs,0,0,0,0,0,0,0,0,0,0,0,Santa Fe Springs,,,,,
 71,City of Santa Monica,74,68,65,62,56,53,49,47,41,38,28,Santa Monica,21,18,16,12,7
-72,City of Sierra Madre,--,--,--,--,--,--,--,0,0,0,0,Sierra Madre,,,,,
-73,City of Signal Hill,--,--,--,--,--,--,--,--,--,--,--,Signal Hill,,,,,
-74,City of South El Monte,--,--,--,--,0,0,0,0,0,0,0,South El Monte,4,3,1,1,1
+72,City of Sierra Madre,0,0,0,0,0,0,0,0,0,0,0,Sierra Madre,,,,,
+73,City of Signal Hill,0,0,0,0,0,0,0,0,0,0,0,Signal Hill,,,,,
+74,City of South El Monte,0,0,0,0,0,0,0,0,0,0,0,South El Monte,4,3,1,1,1
 75,City of South Gate,58,52,42,35,30,25,19,14,12,11,4,South Gate,4,2,1,1,1
 76,City of South Pasadena,10,10,9,7,7,7,6,5,5,3,3,South Pasadena,4,3,3,3,3
 77,City of Temple City,11,9,5,3,1,1,1,1,2,1,0,Temple City,,,,,
@@ -82,15 +82,14 @@
 80,City of Walnut,9,8,7,6,4,4,3,3,3,2,1,Walnut,1,1,1,1,1
 81,City of West Covina,15,12,9,8,7,7,7,7,6,5,5,West Covina,4,2,1,1,1
 82,City of West Hollywood,86,83,81,73,68,64,56,53,52,50,42,West Hollywood,35,31,31,23,19
-83,City of Westlake Village,--,--,--,--,--,--,--,0,0,0,0,Westlake Village,,,,,
+83,City of Westlake Village,0,0,0,0,0,0,0,0,0,0,0,Westlake Village,,,,,
 84,City of Whittier,25,23,21,16,16,15,12,8,8,6,4,Whittier,3,3,3,2,2
-85,Los Angeles,2851,2659,2361,2047,1787,1580,1386,1171,1020,,,Los Angeles,,,,,
-86,Los Angeles - Adams-Normandie,13,13,11,12,8,8,5,--,--,--,--,Adams-Normandie,,,,,
-87,Los Angeles - Alsace,--,--,--,--,--,--,--,--,--,--,--,Alsace,,,,,
-88,Los Angeles - Angeles National Forest,0,0,0,0,0,0,0,0,0,0,,Angeles National Forest,,,,,
+86,Los Angeles - Adams-Normandie,13,13,11,12,8,8,5,0,0,0,0,Adams-Normandie,,,,,
+87,Los Angeles - Alsace,0,0,0,0,0,0,0,0,0,0,0,Alsace,,,,,
+88,Los Angeles - Angeles National Forest,0,0,0,0,0,0,0,0,0,0,0,Angeles National Forest,,,,,
 89,Los Angeles - Angelino Heights,0,0,0,0,0,0,0,0,0,0,0,Angelino Heights,,,,,
 90,Los Angeles - Arleta,17,15,13,10,7,7,7,5,5,4,2,Arleta,2,1,,,
-91,Los Angeles - Atwater Village,7,6,--,--,--,--,--,--,--,--,0,Atwater Village,,,,,
+91,Los Angeles - Atwater Village,7,6,0,0,0,0,0,0,0,0,0,Atwater Village,,,,,
 92,Los Angeles - Baldwin Hills,21,20,18,14,13,13,11,9,9,7,5,Baldwin Hills,4,3,3,3,3
 93,Los Angeles - Bel Air,18,18,15,13,12,12,11,9,9,8,6,Bel Air,,,,,
 94,Los Angeles - Beverly Crest,25,25,24,23,23,22,20,19,18,17,14,Beverly Crest,,,,,
@@ -98,103 +97,103 @@
 96,Los Angeles - Boyle Heights,40,37,36,28,20,15,11,11,10,8,8,Boyle Heights,7,5,5,5,5
 97,Los Angeles - Brentwood,49,49,46,44,42,39,36,34,33,31,30,Brentwood,42,34,31,27,23
 98,Los Angeles - Brookside,0,0,0,0,0,0,0,0,0,0,0,Brookside,,,,,
-99,Los Angeles - Cadillac-Corning,--,--,--,--,--,--,--,--,0,0,0,Cadillac-Corning,,,,,
+99,Los Angeles - Cadillac-Corning,0,0,0,0,0,0,0,0,0,0,0,Cadillac-Corning,,,,,
 100,Los Angeles - Canoga Park,39,32,29,20,16,10,7,4,3,3,2,Canoga Park,3,2,2,2,1
 101,Los Angeles - Carthay,28,26,24,24,17,17,16,15,13,9,7,Carthay,,,,,
 102,Los Angeles - Central,24,24,20,18,16,13,11,6,4,3,2,Central,,,,,
 103,Los Angeles - Century City,23,23,21,19,17,17,13,9,8,8,6,Century City,9,7,6,4,4
 104,Los Angeles - Century Palms/Cove,19,17,15,13,11,11,10,8,8,5,3,Century Palms/Cove,3,3,1,1,1
 105,Los Angeles - Chatsworth,27,24,21,19,20,18,14,10,8,4,3,Chatsworth,1,,,,
-106,Los Angeles - Cheviot Hills,11,10,10,10,9,8,6,5,--,--,--,Cheviot Hills,,,,,
-107,Los Angeles - Chinatown,--,--,--,--,--,--,--,0,0,0,0,Chinatown,,,,,
-108,Los Angeles - Cloverdale/Cochran,10,10,10,8,5,5,--,--,--,--,--,Cloverdale/Cochran,3,3,2,1,
-109,Los Angeles - Country Club Park,14,12,10,9,9,8,5,--,--,--,--,Country Club Park,,,,,
-110,Los Angeles - Crenshaw District,9,9,8,7,7,5,--,--,--,--,--,Crenshaw District,2,2,,,
+106,Los Angeles - Cheviot Hills,11,10,10,10,9,8,6,5,0,0,0,Cheviot Hills,,,,,
+107,Los Angeles - Chinatown,0,0,0,0,0,0,0,0,0,0,0,Chinatown,,,,,
+108,Los Angeles - Cloverdale/Cochran,10,10,10,8,5,5,0,0,0,0,0,Cloverdale/Cochran,3,3,2,1,
+109,Los Angeles - Country Club Park,14,12,10,9,9,8,5,0,0,0,0,Country Club Park,,,,,
+110,Los Angeles - Crenshaw District,9,9,8,7,7,5,0,0,0,0,0,Crenshaw District,2,2,,,
 111,Los Angeles - Crestview,29,23,20,20,17,15,13,13,11,9,7,Crestview,9,7,7,6,5
 112,Los Angeles - Del Rey,27,27,25,22,20,17,16,14,12,10,9,Del Rey,9,5,3,2,2
 113,Los Angeles - Downtown,21,19,18,17,15,15,14,11,10,9,8,Downtown,7,6,3,2,1
 114,Los Angeles - Eagle Rock,22,21,18,14,13,11,10,8,8,8,4,Eagle Rock,3,2,2,2,1
 115,Los Angeles - East Hollywood,18,16,16,14,12,12,13,10,6,5,3,East Hollywood,2,1,1,1,1
-116,Los Angeles - Echo Park,9,9,8,8,6,6,5,5,--,--,--,Echo Park,7,4,2,2,1
+116,Los Angeles - Echo Park,9,9,8,8,6,6,5,5,0,0,0,Echo Park,7,4,2,2,1
 117,Los Angeles - El Sereno,20,18,16,12,9,4,3,3,3,1,0,El Sereno,,,,,
-118,Los Angeles - Elysian Park,5,5,5,5,--,--,--,--,--,--,--,Elysian Park,,,,,
-119,Los Angeles - Elysian Valley,--,--,--,--,--,--,--,--,--,--,--,Elysian Valley,,,,,
+118,Los Angeles - Elysian Park,5,5,5,5,0,0,0,0,0,0,0,Elysian Park,,,,,
+119,Los Angeles - Elysian Valley,0,0,0,0,0,0,0,0,0,0,0,Elysian Valley,,,,,
 120,Los Angeles - Encino,41,39,39,35,33,32,30,29,27,26,23,Encino,21,13,12,10,10
 121,Los Angeles - Exposition,0,0,0,0,0,0,0,0,0,0,0,Exposition,,,,,
 122,Los Angeles - Exposition Park,32,28,22,17,13,8,7,4,4,4,2,Exposition Park,2,1,1,1,
-123,Los Angeles - Faircrest Heights,--,--,--,--,--,--,0,0,0,0,0,Faircrest Heights,,,,,
-124,Los Angeles - Figueroa Park Square,5,--,--,0,0,0,0,0,0,0,0,Figueroa Park Square,,,,,
+123,Los Angeles - Faircrest Heights,0,0,0,0,0,0,0,0,0,0,0,Faircrest Heights,,,,,
+124,Los Angeles - Figueroa Park Square,5,0,0,0,0,0,0,0,0,0,0,Figueroa Park Square,,,,,
 125,Los Angeles - Florence-Firestone,29,28,22,20,18,14,12,7,6,6,3,Florence-Firestone,,,,,
 126,Los Angeles - Glassell Park,33,30,28,22,18,16,11,8,7,7,4,Glassell Park,2,1,,,
-127,Los Angeles - Gramercy Place,7,7,7,6,5,--,--,--,--,--,--,Gramercy Place,,,,,
+127,Los Angeles - Gramercy Place,7,7,7,6,5,0,0,0,0,0,0,Gramercy Place,,,,,
 128,Los Angeles - Granada Hills,29,27,22,21,19,14,10,9,8,8,8,Granada Hills,8,7,5,5,4
-129,Los Angeles - Green Meadows,10,10,10,9,8,8,7,--,--,--,--,Green Meadows,,,,,
+129,Los Angeles - Green Meadows,10,10,10,9,8,8,7,0,0,0,0,Green Meadows,,,,,
 130,Los Angeles - Hancock Park,39,38,37,33,34,33,30,26,18,17,14,Hancock Park,10,8,7,6,5
 131,Los Angeles - Harbor City,20,19,18,15,8,7,5,4,2,1,1,Harbor City,1,,,,
 132,Los Angeles - Harbor Gateway,21,18,15,13,11,9,9,6,4,4,4,Harbor Gateway,3,2,1,,
 133,Los Angeles - Harbor Pines,0,0,0,0,0,0,0,0,0,0,0,Harbor Pines,,,,,
-134,Los Angeles - Harvard Heights,9,9,9,8,6,5,--,--,--,--,--,Harvard Heights,2,1,1,,
+134,Los Angeles - Harvard Heights,9,9,9,8,6,5,0,0,0,0,0,Harvard Heights,2,1,1,,
 135,Los Angeles - Harvard Park,19,16,12,8,5,4,4,3,2,2,1,Harvard Park,,,,,
 136,Los Angeles - Highland Park,21,19,15,11,10,9,9,9,8,6,5,Highland Park,3,2,1,,
 137,Los Angeles - Historic Filipinotown,9,8,7,6,6,5,0,0,0,0,0,Historic Filipinotown,,,,,
 138,Los Angeles - Hollywood,100,96,84,73,71,67,61,49,44,38,30,Hollywood,27,23,19,14,12
 139,Los Angeles - Hollywood Hills,39,39,37,36,34,32,29,26,24,23,19,Hollywood Hills,17,8,8,7,5
 140,Los Angeles - Hyde Park,14,14,11,10,10,8,7,6,4,2,2,Hyde Park,1,1,1,1,
-141,Los Angeles - Jefferson Park,--,--,0,0,0,0,0,0,0,0,0,Jefferson Park,,,,,
+141,Los Angeles - Jefferson Park,0,0,0,0,0,0,0,0,0,0,0,Jefferson Park,,,,,
 142,Los Angeles - Koreatown,34,32,27,26,21,18,14,13,10,10,7,Koreatown,7,5,5,3,2
-143,Los Angeles - Lafayette Square,5,5,--,--,--,--,--,--,--,--,--,Lafayette Square,,,,,
+143,Los Angeles - Lafayette Square,5,5,0,0,0,0,0,0,0,0,0,Lafayette Square,,,,,
 144,Los Angeles - Lake Balboa,26,25,20,19,16,14,11,11,8,6,3,Lake Balboa,3,2,2,2,1
-145,Los Angeles - Lakeview Terrace,10,10,9,9,8,6,5,--,--,--,--,Lakeview Terrace,,,,,
-146,Los Angeles - Leimert Park,18,17,15,12,10,7,--,--,--,--,--,Leimert Park,2,,,,
+145,Los Angeles - Lakeview Terrace,10,10,9,9,8,6,5,0,0,0,0,Lakeview Terrace,,,,,
+146,Los Angeles - Leimert Park,18,17,15,12,10,7,0,0,0,0,0,Leimert Park,2,,,,
 147,Los Angeles - Lincoln Heights,12,11,11,6,6,5,4,2,2,1,1,Lincoln Heights,1,,1,1,
-148,Los Angeles - Little Armenia,19,16,12,9,--,--,--,0,0,0,0,Little Armenia,,,,,
+148,Los Angeles - Little Armenia,19,16,12,9,0,0,0,0,0,0,0,Little Armenia,,,,,
 149,Los Angeles - Little Bangladesh,18,16,14,11,9,8,5,5,4,2,2,Little Bangladesh,1,,,,
-150,Los Angeles - Little Tokyo,--,--,--,--,--,--,--,--,--,0,0,Little Tokyo,,,,,
-151,Los Angeles - Longwood,--,--,--,--,--,--,--,--,0,0,0,Longwood,,,,,
+150,Los Angeles - Little Tokyo,0,0,0,0,0,0,0,0,0,0,0,Little Tokyo,,,,,
+151,Los Angeles - Longwood,0,0,0,0,0,0,0,0,0,0,0,Longwood,,,,,
 152,Los Angeles - Los Feliz,19,19,19,19,16,14,13,11,8,5,6,Los Feliz,5,3,2,2,1
-153,Los Angeles - Manchester Square,--,--,--,--,--,--,--,--,--,--,--,Manchester Square,,,,,
-154,Los Angeles - Mandeville Canyon,--,--,--,--,--,--,--,--,--,--,--,Mandeville Canyon,,,,,
+153,Los Angeles - Manchester Square,0,0,0,0,0,0,0,0,0,0,0,Manchester Square,,,,,
+154,Los Angeles - Mandeville Canyon,0,0,0,0,0,0,0,0,0,0,0,Mandeville Canyon,,,,,
 155,Los Angeles - Mar Vista,26,25,24,23,21,18,13,13,9,8,8,Mar Vista,8,6,6,6,5
-156,Los Angeles - Marina Peninsula,7,6,6,6,6,6,--,--,--,--,--,Marina Peninsula,,,,,
+156,Los Angeles - Marina Peninsula,7,6,6,6,6,6,0,0,0,0,0,Marina Peninsula,,,,,
 157,Los Angeles - Melrose,147,140,129,121,113,104,100,82,71,56,49,Melrose,47,33,26,19,17
 158,Los Angeles - Mid-city,22,21,17,16,14,13,11,10,9,8,8,Mid-city,,,,,
 159,Los Angeles - Miracle Mile,17,17,15,13,12,12,12,10,9,8,7,Miracle Mile,13,8,7,5,4
-160,Los Angeles - Mission Hills,12,12,11,8,6,6,6,6,5,5,--,Mission Hills,,,,,
-161,Los Angeles - Mt. Washington,9,8,8,6,--,--,--,--,--,--,--,Mt. Washington,3,2,1,,
+160,Los Angeles - Mission Hills,12,12,11,8,6,6,6,6,5,5,0,Mission Hills,,,,,
+161,Los Angeles - Mt. Washington,9,8,8,6,0,0,0,0,0,0,0,Mt. Washington,3,2,1,,
 162,Los Angeles - North Hills,28,22,21,16,13,11,9,7,6,2,1,North Hills,1,,,,
 163,Los Angeles - North Hollywood,90,91,86,67,57,45,39,34,30,26,18,North Hollywood,15,11,10,9,5
 164,Los Angeles - Northridge,22,23,21,17,14,12,9,8,8,8,7,Northridge,4,2,2,1,1
 165,Los Angeles - Pacific Palisades,26,26,26,25,24,23,22,18,15,11,10,Pacific Palisades,12,9,9,8,7
 166,Los Angeles - Pacoima,31,30,22,16,8,7,5,4,3,3,2,Pacoima,1,,,,
-167,Los Angeles - Palisades Highlands,--,--,--,--,--,--,--,--,--,0,0,Palisades Highlands,,,,,
+167,Los Angeles - Palisades Highlands,0,0,0,0,0,0,0,0,0,0,0,Palisades Highlands,,,,,
 168,Los Angeles - Palms,46,41,39,33,28,27,25,21,20,15,12,Palms,10,8,6,2,1
 169,Los Angeles - Panorama City,38,33,27,19,16,11,7,7,6,4,4,Panorama City,4,1,,,
-170,Los Angeles - Park La Brea,9,8,6,6,6,5,--,--,--,--,--,Park La Brea,8,8,8,6,4
+170,Los Angeles - Park La Brea,9,8,6,6,6,5,0,0,0,0,0,Park La Brea,8,8,8,6,4
 171,Los Angeles - Pico-Union,24,21,16,13,9,9,7,5,4,4,5,Pico-Union,,,,,
-172,Los Angeles - Playa Del Rey,--,--,--,--,--,--,--,--,--,--,--,Playa Del Rey,,,,,
+172,Los Angeles - Playa Del Rey,0,0,0,0,0,0,0,0,0,0,0,Playa Del Rey,,,,,
 173,Los Angeles - Playa Vista,10,8,8,8,7,7,7,5,5,5,5,Playa Vista,8,5,4,3,2
 174,Los Angeles - Porter Ranch,20,21,16,12,12,8,8,6,6,3,2,Porter Ranch,2,1,1,,
-175,Los Angeles - Rancho Park,8,7,6,5,--,--,--,--,--,--,--,Rancho Park,,,,,
-176,Los Angeles - Regent Square,--,--,--,--,--,--,--,--,0,0,0,Regent Square,,,,,
+175,Los Angeles - Rancho Park,8,7,6,5,0,0,0,0,0,0,0,Rancho Park,,,,,
+176,Los Angeles - Regent Square,0,0,0,0,0,0,0,0,0,0,0,Regent Square,,,,,
 177,Los Angeles - Reseda,43,38,34,25,21,20,20,20,13,11,8,Reseda,8,5,4,3,2
-178,Los Angeles - Reseda Ranch,--,--,--,--,--,--,--,--,--,--,--,Reseda Ranch,,,,,
-179,Los Angeles - Reynier Village,--,--,--,--,--,--,--,--,--,--,--,Reynier Village,,,,,
+178,Los Angeles - Reseda Ranch,0,0,0,0,0,0,0,0,0,0,0,Reseda Ranch,,,,,
+179,Los Angeles - Reynier Village,0,0,0,0,0,0,0,0,0,0,0,Reynier Village,,,,,
 180,Los Angeles - San Pedro,31,26,25,25,19,14,14,11,10,9,8,San Pedro,5,4,2,2,1
-181,Los Angeles - Shadow Hills,5,5,5,5,5,--,--,--,--,--,--,Shadow Hills,,,,,
+181,Los Angeles - Shadow Hills,5,5,5,5,5,0,0,0,0,0,0,Shadow Hills,,,,,
 182,Los Angeles - Sherman Oaks,57,56,52,46,43,37,33,32,27,25,21,Sherman Oaks,17,12,10,8,7
 183,Los Angeles - Silverlake,58,55,46,38,25,25,20,18,16,14,12,Silverlake,11,6,5,4,3
 184,Los Angeles - South Carthay,19,20,17,17,14,9,8,8,6,5,5,South Carthay,,,,,
 185,Los Angeles - South Park,23,22,17,15,12,11,5,4,4,4,3,South Park,2,1,1,1,
-186,Los Angeles - St Elmo Village,--,--,0,0,0,0,0,0,0,0,0,St Elmo Village,,,,,
+186,Los Angeles - St Elmo Village,0,0,0,0,0,0,0,0,0,0,0,St Elmo Village,,,,,
 187,Los Angeles - Studio City,21,21,19,19,19,19,18,15,14,10,10,Studio City,11,7,7,7,4
 188,Los Angeles - Sun Valley,22,18,13,11,10,9,8,6,6,5,3,Sun Valley,2,2,2,2,1
-189,Los Angeles - Sunland,14,13,10,10,9,8,5,--,--,--,0,Sunland,1,1,1,1,1
+189,Los Angeles - Sunland,14,13,10,10,9,8,5,0,0,0,0,Sunland,1,1,1,1,1
 190,Los Angeles - Sycamore Square,0,0,0,0,0,0,0,0,0,0,0,Sycamore Square,,,,,
 191,Los Angeles - Sylmar,70,61,52,42,35,30,25,18,15,8,4,Sylmar,2,1,1,1,1
 192,Los Angeles - Tarzana,37,37,33,30,29,29,26,24,23,19,17,Tarzana,14,9,9,8,8
 193,Los Angeles - Temple-Beaudry,27,24,18,15,12,11,10,8,5,5,5,Temple-Beaudry,,,,,
-194,Los Angeles - Thai Town,5,5,5,--,--,--,--,--,--,--,--,Thai Town,,,,,
-195,Los Angeles - Toluca Lake,6,6,6,5,--,--,--,--,--,--,--,Toluca Lake,,,,,
+194,Los Angeles - Thai Town,5,5,5,0,0,0,0,0,0,0,0,Thai Town,,,,,
+195,Los Angeles - Toluca Lake,6,6,6,5,0,0,0,0,0,0,0,Toluca Lake,,,,,
 196,Los Angeles - Toluca Terrace,0,0,0,0,0,0,0,0,0,0,0,Toluca Terrace,,,,,
 197,Los Angeles - Toluca Woods,0,0,0,0,0,0,0,0,0,0,0,Toluca Woods,,,,,
 198,Los Angeles - Tujunga,12,10,8,7,5,5,5,4,3,2,2,Tujunga,2,1,1,1,1
@@ -204,12 +203,12 @@
 202,Los Angeles - Valley Village,30,30,29,27,23,23,21,19,18,14,13,Valley Village,,,,,
 203,Los Angeles - Van Nuys,38,36,33,26,22,17,13,10,7,6,4,Van Nuys,4,4,4,4,2
 204,Los Angeles - Venice,26,25,20,20,20,18,18,18,17,13,11,Venice,11,9,8,7,7
-205,Los Angeles - Vermont Knolls,13,12,10,7,7,5,--,--,--,--,--,Vermont Knolls,3,1,1,1,1
-206,Los Angeles - Vermont Square,7,6,5,5,5,--,--,--,--,--,--,Vermont Square,,,,,
+205,Los Angeles - Vermont Knolls,13,12,10,7,7,5,0,0,0,0,0,Vermont Knolls,3,1,1,1,1
+206,Los Angeles - Vermont Square,7,6,5,5,5,0,0,0,0,0,0,Vermont Square,,,,,
 207,Los Angeles - Vermont Vista,14,14,11,8,7,7,6,5,5,3,2,Vermont Vista,5,3,3,1,1
 208,Los Angeles - Vernon Central,22,21,15,8,7,5,5,4,3,3,3,Vernon Central,1,1,1,1,1
-209,Los Angeles - Victoria Park,13,11,9,7,6,--,--,--,--,--,--,Victoria Park,,,,,
-210,Los Angeles - View Heights,--,--,--,--,--,--,--,--,--,0,0,View Heights,,,,,
+209,Los Angeles - Victoria Park,13,11,9,7,6,0,0,0,0,0,0,Victoria Park,,,,,
+210,Los Angeles - View Heights,0,0,0,0,0,0,0,0,0,0,0,View Heights,,,,,
 211,Los Angeles - Watts,16,15,14,12,11,7,7,2,2,1,1,Watts,1,1,,,
 212,Los Angeles - Wellington Square,0,0,0,0,0,0,0,0,0,0,0,Wellington Square,,,,,
 213,Los Angeles - West Adams,25,21,20,16,15,14,12,9,7,7,6,West Adams,6,4,3,1,1
@@ -224,40 +223,40 @@
 222,Los Angeles - Wilshire Center,27,23,19,17,15,12,8,8,5,4,4,Wilshire Center,2,2,1,1,
 223,Los Angeles - Winnetka,35,29,25,18,15,11,10,9,9,8,3,Winnetka,5,3,2,1,1
 224,Los Angeles - Woodland Hills,53,47,43,36,33,29,25,22,19,18,14,Woodland Hills,13,11,8,7,5
-225,Unincorporated - Acton,--,--,--,--,--,0,0,0,0,0,0,Acton,,,,,
-226,Unincorporated - Agua Dulce,--,--,0,0,0,0,0,0,0,0,0,Agua Dulce,,,,,
+225,Unincorporated - Acton,0,0,0,0,0,0,0,0,0,0,0,Acton,,,,,
+226,Unincorporated - Agua Dulce,0,0,0,0,0,0,0,0,0,0,0,Agua Dulce,,,,,
 227,Unincorporated - Altadena,26,25,18,16,16,14,12,10,10,10,9,Altadena,6,5,5,5,3
 228,Unincorporated - Anaverde,0,0,0,0,0,0,0,0,0,0,0,Anaverde,,,,,
 229,Unincorporated - Angeles National Forest,0,0,0,0,0,0,0,0,0,0,0,Angeles National Forest,,,,,
 230,Unincorporated - Arcadia,0,0,0,0,0,0,0,0,0,0,0,Arcadia,6,4,4,3,2
 231,Unincorporated - Athens-Westmont,23,22,22,17,15,13,11,7,7,7,5,Athens-Westmont,,,,,
-232,Unincorporated - Athens Village,--,--,--,--,--,--,--,0,0,0,0,Athens Village,,,,,
+232,Unincorporated - Athens Village,0,0,0,0,0,0,0,0,0,0,0,Athens Village,,,,,
 233,Unincorporated - Avocado Heights,0,0,0,0,0,0,0,0,0,0,0,Avocado Heights,,,,,
-234,Unincorporated - Azusa,--,--,--,--,--,0,0,0,0,0,0,Azusa,1,,,,
+234,Unincorporated - Azusa,0,0,0,0,0,0,0,0,0,0,0,Azusa,1,,,,
 235,Unincorporated - Bandini Islands,0,0,0,0,0,0,0,0,0,0,,Bandini Islands,,,,,
-236,Unincorporated - Bassett,--,--,0,0,0,0,0,0,0,0,0,Bassett,,,,,
+236,Unincorporated - Bassett,0,0,0,0,0,0,0,0,0,0,0,Bassett,,,,,
 237,Unincorporated - Bouquet Canyon,0,0,0,0,0,0,0,0,0,0,0,Bouquet Canyon,,,,,
 238,Unincorporated - Bradbury,0,0,0,0,0,0,0,0,0,0,0,Bradbury,,,,,
-239,Unincorporated - Canyon Country,8,8,7,5,--,--,--,--,--,--,--,Canyon Country,1,1,1,,
+239,Unincorporated - Canyon Country,8,8,7,5,0,0,0,0,0,0,0,Canyon Country,1,1,1,,
 240,Unincorporated - Castaic,6,5,5,4,4,3,3,3,4,4,3,Castaic,2,2,2,1,1
 241,Unincorporated - Cerritos,0,0,0,0,0,0,0,0,0,0,0,Cerritos,2,2,2,2,2
 242,Unincorporated - Charter Oak,0,0,0,0,0,0,0,0,0,0,,Charter Oak,,,,,
 243,Unincorporated - Claremont,0,0,0,0,0,0,0,0,0,0,0,Claremont,1,1,1,,
-244,Unincorporated - Covina,12,10,9,6,6,--,--,--,--,--,--,Covina,4,3,3,1,1
-245,Unincorporated - Covina (Charter Oak),5,--,--,--,--,--,0,0,0,0,0,Covina (Charter Oak),,,,,
-246,Unincorporated - Del Aire,5,--,--,--,--,--,--,--,0,0,0,Del Aire,,,,,
+244,Unincorporated - Covina,12,10,9,6,6,0,0,0,0,0,0,Covina,4,3,3,1,1
+245,Unincorporated - Covina (Charter Oak),5,0,0,0,0,0,0,0,0,0,0,Covina (Charter Oak),,,,,
+246,Unincorporated - Del Aire,5,0,0,0,0,0,0,0,0,0,0,Del Aire,,,,,
 247,Unincorporated - Del Rey,0,0,0,0,0,0,0,0,0,0,0,Del Rey,9,5,3,2,2
 248,Unincorporated - Del Sur,0,0,0,0,0,0,0,0,0,0,0,Del Sur,,,,,
-249,Unincorporated - Desert View Highlands,--,0,0,0,0,0,0,0,0,0,0,Desert View Highlands,,,,,
+249,Unincorporated - Desert View Highlands,0,0,0,0,0,0,0,0,0,0,0,Desert View Highlands,,,,,
 250,Unincorporated - Duarte,0,0,0,0,0,0,0,0,0,0,0,Duarte,2,1,1,1,
 251,Unincorporated - East Covina,0,0,0,0,0,0,0,0,0,0,0,East Covina,,,,,
-252,Unincorporated - East La Mirada,--,--,--,--,--,--,--,0,0,0,0,East La Mirada,,,,,
+252,Unincorporated - East La Mirada,0,0,0,0,0,0,0,0,0,0,0,East La Mirada,,,,,
 253,Unincorporated - East Lancaster,0,0,0,0,0,0,0,0,0,0,0,East Lancaster,,,,,
 254,Unincorporated - East Los Angeles,51,44,40,28,23,16,14,11,9,8,6,East Los Angeles,4,3,3,2,2
 255,Unincorporated - East Pasadena,0,0,0,0,0,0,0,0,0,0,0,East Pasadena,,,,,
-256,Unincorporated - East Rancho Dominguez,6,6,--,--,--,--,0,0,0,0,0,East Rancho Dominguez,,,,,
-257,Unincorporated - East Whittier,--,--,--,--,--,--,--,--,--,--,--,East Whittier,,,,,
-258,Unincorporated - El Camino Village,--,--,--,--,--,--,0,0,0,0,0,El Camino Village,,,,,
+256,Unincorporated - East Rancho Dominguez,6,6,0,0,0,0,0,0,0,0,0,East Rancho Dominguez,,,,,
+257,Unincorporated - East Whittier,0,0,0,0,0,0,0,0,0,0,0,East Whittier,,,,,
+258,Unincorporated - El Camino Village,0,0,0,0,0,0,0,0,0,0,0,El Camino Village,,,,,
 259,Unincorporated - El Monte,0,0,0,0,0,0,0,0,0,0,0,El Monte,,,,,
 260,Unincorporated - Elizabeth Lake,0,0,0,0,0,0,0,0,0,0,0,Elizabeth Lake,,,,,
 261,Unincorporated - Florence-Firestone,36,35,29,26,23,19,0,0,0,0,0,Florence-Firestone,,,,,
@@ -265,33 +264,33 @@
 263,Unincorporated - Glendora,0,0,0,0,0,0,0,0,0,0,0,Glendora,2,2,1,1,1
 264,Unincorporated - Hacienda Heights,19,17,13,12,12,8,5,2,2,2,2,Hacienda Heights,2,,,,
 265,Unincorporated - Harbor Gateway,0,0,0,0,0,0,0,0,0,0,,Harbor Gateway,3,2,1,,
-266,Unincorporated - Hawthorne,--,--,--,--,--,--,--,--,--,--,--,Hawthorne,9,8,6,3,2
+266,Unincorporated - Hawthorne,0,0,0,0,0,0,0,0,0,0,0,Hawthorne,9,8,6,3,2
 267,Unincorporated - Hi Vista,0,0,0,0,0,0,0,0,0,0,0,Hi Vista,,,,,
 268,Unincorporated - Kagel/Lopez Canyons,0,0,0,0,0,0,0,0,0,0,0,Kagel/Lopez Canyons,,,,,
-269,Unincorporated - La Crescenta-Montrose,6,5,--,--,--,--,0,0,0,0,0,La Crescenta-Montrose,,,,,
-270,Unincorporated - La Habra Heights,0,0,0,0,0,0,0,0,0,0,--,La Habra Heights,,,,,
-271,Unincorporated - La Rambla,--,--,--,--,--,--,--,--,--,--,--,La Rambla,,,,,
-272,Unincorporated - La Verne,--,--,--,--,--,--,--,--,--,--,--,La Verne,2,2,2,2,2
-273,Unincorporated - Ladera Heights,10,10,8,7,6,5,5,--,--,0,0,Ladera Heights,,,,,
+269,Unincorporated - La Crescenta-Montrose,6,5,0,0,0,0,0,0,0,0,0,La Crescenta-Montrose,,,,,
+270,Unincorporated - La Habra Heights,0,0,0,0,0,0,0,0,0,0,0,La Habra Heights,,,,,
+271,Unincorporated - La Rambla,0,0,0,0,0,0,0,0,0,0,0,La Rambla,,,,,
+272,Unincorporated - La Verne,0,0,0,0,0,0,0,0,0,0,0,La Verne,2,2,2,2,2
+273,Unincorporated - Ladera Heights,10,10,8,7,6,5,5,0,0,0,0,Ladera Heights,,,,,
 274,Unincorporated - Lake Hughes,0,0,0,0,0,0,0,0,0,0,0,Lake Hughes,,,,,
-275,Unincorporated - Lake Los Angeles,--,--,--,--,--,0,0,0,0,0,0,Lake Los Angeles,,,,,
-276,Unincorporated - Lake Manor,--,--,0,0,0,0,0,0,0,0,0,Lake Manor,,,,,
+275,Unincorporated - Lake Los Angeles,0,0,0,0,0,0,0,0,0,0,0,Lake Los Angeles,,,,,
+276,Unincorporated - Lake Manor,0,0,0,0,0,0,0,0,0,0,0,Lake Manor,,,,,
 277,Unincorporated - Lakewood,0,0,0,0,0,0,0,0,0,0,0,Lakewood,7,4,3,1,1
-278,Unincorporated - Lennox,16,15,12,10,9,8,8,7,5,--,--,Lennox,,,,,
+278,Unincorporated - Lennox,16,15,12,10,9,8,8,7,5,0,0,Lennox,,,,,
 279,Unincorporated - Leona Valley,0,0,0,0,0,0,0,0,0,0,0,Leona Valley,,,,,
 280,Unincorporated - Littlerock,0,0,0,0,0,0,0,0,0,0,0,Littlerock,,,,,
 281,Unincorporated - Littlerock/Juniper Hills,0,0,0,0,0,0,0,0,0,0,0,Littlerock/Juniper Hills,,,,,
-282,Unincorporated - Littlerock/Pearblossom,--,--,0,0,0,0,0,0,0,0,0,Littlerock/Pearblossom,,,,,
+282,Unincorporated - Littlerock/Pearblossom,0,0,0,0,0,0,0,0,0,0,0,Littlerock/Pearblossom,,,,,
 283,Unincorporated - Llano,0,0,0,0,0,0,0,0,0,0,0,Llano,,,,,
 284,Unincorporated - Long Beach,0,0,0,0,0,0,0,0,0,0,0,Long Beach,,,,,
 285,Unincorporated - Lynwood,0,0,0,0,0,0,0,0,0,0,,Lynwood,6,3,2,2,2
-286,Unincorporated - Marina del Rey,5,5,5,5,5,5,5,--,--,--,--,Marina del Rey,,,,,
+286,Unincorporated - Marina del Rey,5,5,5,5,5,5,5,0,0,0,0,Marina del Rey,,,,,
 287,Unincorporated - Miracle Mile,0,0,0,0,0,0,0,0,0,0,,Miracle Mile,13,8,7,5,4
-288,Unincorporated - Monrovia,5,--,--,--,--,--,--,--,--,--,--,Monrovia,2,,,,
+288,Unincorporated - Monrovia,5,0,0,0,0,0,0,0,0,0,0,Monrovia,2,,,,
 289,Unincorporated - Newhall,0,0,0,0,0,0,0,0,0,0,0,Newhall,,,,,
 290,Unincorporated - North Lancaster,0,0,0,0,0,0,0,0,0,0,0,North Lancaster,,,,,
-291,Unincorporated - North Whittier,--,--,--,--,--,--,--,--,0,0,0,North Whittier,,,,,
-292,Unincorporated - Northeast San Gabriel,--,--,--,--,--,--,0,0,0,0,0,Northeast San Gabriel,,,,,
+291,Unincorporated - North Whittier,0,0,0,0,0,0,0,0,0,0,0,North Whittier,,,,,
+292,Unincorporated - Northeast San Gabriel,0,0,0,0,0,0,0,0,0,0,0,Northeast San Gabriel,,,,,
 293,Unincorporated - Padua Hills,0,0,0,0,0,0,0,0,0,0,0,Padua Hills,,,,,
 294,Unincorporated - Palmdale,0,0,0,0,0,0,0,0,0,0,0,Palmdale,2,2,2,1,
 295,Unincorporated - Palos Verdes Peninsula,0,0,0,0,0,0,0,0,0,0,0,Palos Verdes Peninsula,,,,,
@@ -299,10 +298,10 @@
 297,Unincorporated - Pellissier Village,0,0,0,0,0,0,0,0,0,0,0,Pellissier Village,,,,,
 298,Unincorporated - Placerita Canyon,0,0,0,0,0,0,0,0,0,0,0,Placerita Canyon,,,,,
 299,Unincorporated - Pomona,0,0,0,0,0,0,0,0,0,0,0,Pomona,3,1,,,
-300,Unincorporated - Quartz Hill,--,--,--,--,--,--,--,--,--,0,0,Quartz Hill,,,,,
-301,Unincorporated - Rancho Dominguez,--,--,--,--,--,--,--,--,--,0,0,Rancho Dominguez,,,,,
+300,Unincorporated - Quartz Hill,0,0,0,0,0,0,0,0,0,0,0,Quartz Hill,,,,,
+301,Unincorporated - Rancho Dominguez,0,0,0,0,0,0,0,0,0,0,0,Rancho Dominguez,,,,,
 302,Unincorporated - Roosevelt,0,0,0,0,0,0,0,0,0,0,0,Roosevelt,,,,,
-303,Unincorporated - Rosewood,--,--,--,--,--,--,0,0,0,0,0,Rosewood,,,,,
+303,Unincorporated - Rosewood,0,0,0,0,0,0,0,0,0,0,0,Rosewood,,,,,
 304,Unincorporated - Rosewood/East Gardena,0,0,0,0,0,0,0,0,0,0,0,Rosewood/East Gardena,,,,,
 305,Unincorporated - Rosewood/West Rancho Dominguez,0,0,0,0,0,0,0,0,0,0,0,Rosewood/West Rancho Dominguez,,,,,
 306,Unincorporated - Rowland Heights,8,8,8,7,6,5,3,3,3,1,1,Rowland Heights,,,,,
@@ -311,9 +310,9 @@
 309,Unincorporated - San Jose Hills,0,0,0,0,0,0,0,0,0,0,0,San Jose Hills,,,,,
 310,Unincorporated - San Pasqual,0,0,0,0,0,0,0,0,0,0,0,San Pasqual,,,,,
 311,Unincorporated - Sand Canyon,0,0,0,0,0,0,0,0,0,0,0,Sand Canyon,,,,,
-312,Unincorporated - Santa Catalina Island,--,--,--,0,0,0,0,0,0,0,0,Santa Catalina Island,,,,,
-313,Unincorporated - Santa Monica Mountains,5,5,--,--,--,--,0,0,0,0,0,Santa Monica Mountains,4,3,2,2,2
-314,Unincorporated - Saugus,--,--,--,--,--,0,0,0,0,0,0,Saugus,,,,,
+312,Unincorporated - Santa Catalina Island,0,0,0,0,0,0,0,0,0,0,0,Santa Catalina Island,,,,,
+313,Unincorporated - Santa Monica Mountains,5,5,0,0,0,0,0,0,0,0,0,Santa Monica Mountains,4,3,2,2,2
+314,Unincorporated - Saugus,0,0,0,0,0,0,0,0,0,0,0,Saugus,,,,,
 315,Unincorporated - Saugus/Canyon Country,0,0,0,0,0,0,0,0,0,0,0,Saugus/Canyon Country,,,,,
 316,Unincorporated - South Antelope Valley,0,0,0,0,0,0,0,0,0,0,0,South Antelope Valley,,,,,
 317,Unincorporated - South Edwards,0,0,0,0,0,0,0,0,0,0,,South Edwards,,,,,
@@ -321,29 +320,29 @@
 319,Unincorporated - South San Gabriel,6,5,5,5,5,5,0,0,0,0,0,South San Gabriel,,,,,
 320,Unincorporated - South Whittier,17,15,13,11,9,8,7,5,5,5,3,South Whittier,4,3,2,2,1
 321,Unincorporated - Southeast Antelope Valley,0,0,0,0,0,0,0,0,0,0,0,Southeast Antelope Valley,,,,,
-322,Unincorporated - Stevenson Ranch,8,7,7,6,5,--,--,--,--,--,--,Stevenson Ranch,3,2,2,2,1
-323,Unincorporated - Sun Village,--,--,--,--,--,--,--,0,0,0,0,Sun Village,,,,,
+322,Unincorporated - Stevenson Ranch,8,7,7,6,5,0,0,0,0,0,0,Stevenson Ranch,3,2,2,2,1
+323,Unincorporated - Sun Village,0,0,0,0,0,0,0,0,0,0,0,Sun Village,,,,,
 324,Unincorporated - Sunrise Village,0,0,0,0,0,0,0,0,0,0,0,Sunrise Village,,,,,
-325,Unincorporated - Twin Lakes/Oat Mountain,--,--,--,--,--,--,0,0,0,0,0,Twin Lakes/Oat Mountain,,,,,
+325,Unincorporated - Twin Lakes/Oat Mountain,0,0,0,0,0,0,0,0,0,0,0,Twin Lakes/Oat Mountain,,,,,
 326,Unincorporated - Universal City,0,0,0,0,0,0,0,0,0,0,,Universal City,,,,,
 327,Unincorporated - Val Verde,0,0,0,0,0,0,0,0,0,0,0,Val Verde,,,,,
-328,Unincorporated - Valencia,--,--,--,--,--,--,--,--,--,--,--,Valencia,,,,,
-329,Unincorporated - Valinda,7,6,5,--,--,--,--,--,--,--,--,Valinda,1,1,,,
+328,Unincorporated - Valencia,0,0,0,0,0,0,0,0,0,0,0,Valencia,,,,,
+329,Unincorporated - Valinda,7,6,5,0,0,0,0,0,0,0,0,Valinda,1,1,,,
 330,Unincorporated - View Park/Windsor Hills,13,12,11,8,7,7,0,0,0,0,0,View Park/Windsor Hills,,,,,
 331,Unincorporated - Walnut,0,0,0,0,0,0,0,0,0,0,,Walnut,1,1,1,1,1
-332,Unincorporated - Walnut Park,8,7,--,--,--,0,0,0,0,0,0,Walnut Park,,,,,
-333,Unincorporated - West Antelope Valley,--,--,--,--,--,--,0,0,0,0,0,West Antelope Valley,,,,,
+332,Unincorporated - Walnut Park,8,7,0,0,0,0,0,0,0,0,0,Walnut Park,,,,,
+333,Unincorporated - West Antelope Valley,0,0,0,0,0,0,0,0,0,0,0,West Antelope Valley,,,,,
 334,Unincorporated - West Carson,20,20,18,15,11,11,9,8,7,6,5,West Carson,,,,,
 335,Unincorporated - West Chatsworth,0,0,0,0,0,0,0,0,0,0,,West Chatsworth,,,,,
-336,Unincorporated - West LA,--,--,17,11,--,--,--,--,--,--,--,West LA,,,,,
-337,Unincorporated - West Puente Valley,--,--,--,--,--,--,0,0,0,0,0,West Puente Valley,,,,,
-338,Unincorporated - West Rancho Dominguez,--,--,--,0,0,0,0,0,0,0,0,West Rancho Dominguez,,,,,
+336,Unincorporated - West LA,0,0,17,11,0,0,0,0,0,0,0,West LA,,,,,
+337,Unincorporated - West Puente Valley,0,0,0,0,0,0,0,0,0,0,0,West Puente Valley,,,,,
+338,Unincorporated - West Rancho Dominguez,0,0,0,0,0,0,0,0,0,0,0,West Rancho Dominguez,,,,,
 339,Unincorporated - West Whittier/Los Nietos,8,8,7,3,2,1,0,0,0,0,0,West Whittier/Los Nietos,1,,,,
 340,Unincorporated - Westfield/Academy Hills,0,0,0,0,0,0,0,0,0,0,0,Westfield/Academy Hills,,,,,
 341,Unincorporated - Westhills,0,0,0,0,0,0,0,0,0,0,0,Westhills,,,,,
 342,Unincorporated - White Fence Farms,0,0,0,0,0,0,0,0,0,0,0,White Fence Farms,,,,,
-343,Unincorporated - Whittier,--,--,0,0,0,0,0,0,0,0,0,Whittier,3,3,3,2,2
+343,Unincorporated - Whittier,0,0,0,0,0,0,0,0,0,0,0,Whittier,3,3,3,2,2
 344,Unincorporated - Whittier Narrows,0,0,0,0,0,0,0,0,0,0,,Whittier Narrows,,,,,
 345,Unincorporated - Willowbrook,14,12,10,8,6,5,2,2,1,1,1,Willowbrook,1,1,1,,
-346,Unincorporated - Wiseburn,--,--,--,--,--,--,--,--,--,--,--,Wiseburn,,,,,
-347,-  Under Investigation,599,614,606,518,505,394,309,222,184,154,143,-  Under Investigation,141,56,62 ,61 ,38 
+346,Unincorporated - Wiseburn,0,0,0,0,0,0,0,0,0,0,0,Wiseburn,,,,,
+347,-  Under Investigation,599,614,606,518,505,394,309,222,184,154,143,-  Under Investigation,141,56,62,61,38
