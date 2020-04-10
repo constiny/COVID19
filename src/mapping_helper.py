@@ -43,7 +43,7 @@ def color_on_quantity(n):
         color="#0A8A9F" # teal
     return color
 
-def plot_confirm_counts(data, panel):
+def plot_confirm_counts(data, df_panel):
 
     ## Create map
 
