@@ -16,7 +16,7 @@
 > [3.1. US Map](#Map)<br>
 > [3.2. LA Map](#LAMap)<br>
 
-[5. Conclusion](#HT)
+[5. Hypotheses Test](#HT)
 
 [6. Summary](#sm)
 
@@ -78,6 +78,7 @@ We obtain two types of data representing the COVID-19 situation.
     * Date
     * Country 
     * States (Only for the US)
+    * Geographical Information
     * Community (Only for LA County)
     * Number of Confirmed Case
     * Number of Death Case
