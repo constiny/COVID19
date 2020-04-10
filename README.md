@@ -1,5 +1,5 @@
 
-##### **A Quick Look on COVID19 Situation of US and Your Neighborhood**
+# **A Quick Look on COVID-19 Situation of US and Your Neighborhood**
 -----------------------
 
 # Table of Contents
@@ -8,14 +8,20 @@
 >   [2.1. Data Stucture](#DATA)<br>
 >   [2.2. Data Acquisition](#Dataacquisition)<br>
     
-[3. Hypothesis Testing](#hypo)
-> [3 i. Set-Up](#setup)<br>
-> [3 ii. Welch Test Statistic & Student t- test](#welch)<br>
-> [3 iii. P-value](#pval)<br>
+[3. EDA](#EDA)
+> [3.1. COVID Case](#case)<br>
+> [3.2. COVID Test](#test)<br>
+> [3.3. States](#states)<br>
 
-[4. Conclusion](#conclude)
+[4. MAP](#Map)
+> [3.1. US Map](#Map)<br>
+> [3.2. LA Map](#LAMap)<br>
 
-[5. Appendix](#Appendix)
+[5. Conclusion](#HT)
+
+[6. Summary](#sm)
+
+[7. Appendix](#Appendix)
 
 -----------------------
 # Motivation
@@ -83,10 +89,10 @@ Jump to [EDA](#EDA) if you are not interested in web straping and data cleaning.
 Beside the data were well organized and available for download, one most important technique for obtaining data is **web scraping**.
 ### Web Scraping
 Here is a demonstration of web straping for sample page of a press release of the Department of Public Health of Los Angeles County.
-<img src="images/sample_data_LA1.png" />
+> <img src="img/sample_data_LA1.png" />
 
 Every page would generate one single record through web straping. We could obtain the Date of a single record from the top left of page. 
-<img src="images/sample_data_LA2.png" />
+> <img src="img/sample_data_LA2.png" />
 From the bottom, we could get confirmed cases and its infective density for each community in LA county.
 The process is implement by a pre-define webscrap class `webscrape` including functions for getting tables, get text and get urls. The class definition is stored as `./src/web_scraping`.
 Sample data as below.
@@ -121,7 +127,7 @@ We create rules to transform city name in a same scale and merge into a ready da
 # EDA<a id="EDA"> </a>
 
 -------------------
-## EDA on Case Data
+## EDA on Case Data<a id="case"> </a>
 
 There are two types of case data, one is cross-section data describe a single day all kind of record of different area. The other one is a panel data focused on one attribute of different area over time.
 
@@ -149,7 +155,7 @@ The variables we most care about are `Confirmed, Deaths, Recovered, Active` 4 co
 
 Hence, we will explore the inner relationship among them through a pairwise scatter plot through `seaborn`.
 
-image
+<img src="img/plot01.png" />
 
 As we can see from the plots, **all the death, recovered and active case has a positive relationship on confirmed case.** So if we want to see a small number in death, we need to see a low level of confirm case.
 
@@ -171,17 +177,17 @@ First, we takes a look at the schema of the dataset.
 
 For time series data, trend is much more important. As we can see below, **the increasing trend of confirmed cases has been acclarating since Early March** without a clear sign for slowing down.
 
-image
+<img src="img/plot02.png" />
 
 The recent growth of confirmed cases were contributed by US and West Euro countries. And US has shown the most worried sign in term of the most case without a slowing down trend.
 
-image
+<img src="img/plot03.png" />
 
 Another takeaway from this plot, there are two coutries, China and South Korea were considered well controlled the COVID-19 while South Korea's example were repeatable which means massive test, quick tracking and quarantine.
 
 Next step, we will try to explore the relationship between Korean testing and cases.
 
-## EDA on Tesing Data
+## EDA on Tesing Data<a id="test"> </a>
 
 Let's take a flight to seoul CDC and robbed their press release drafts and type into our computer.
 
@@ -210,21 +216,21 @@ $$positive rate(Day n)  =  \frac{PCR Confirmed(Day n)}{new testing(Day n)}$$
 
 We use similar method as before that creating pairwise scatter plot.
 
-image
+<img src="img/plot04.png" />
 
 We did not observe a clear pattern between `new_testing` and `positive_rate`. 
 
-## Back to LA
+## Back to US<a id="states"> </a>
 
 Let travel back to Los Angeles, California, US on a time which seems not a good time for international travel.
 
 Although california has the most population among the states, california is not even the top 3 and has a relative flatten curve.
 
-image
+<img src="img/plot05.png" />
 
 However, state is to large for us to perceive how is things going around. In order to fix the problem, we create two maps.
 
-# Map
+# Map<a id="Map"> </a>
 
 ## US Map
 Since the case data includes the geographic information, we could plot all the point onto a map by `folium` library.
@@ -233,35 +239,39 @@ Since the case data includes the geographic information, we could plot all the p
 
 * Color: Sharper color indicates larger number of case
 
-image
+<img src="img/US_1.png" />
 
 We could easily identify some epicenter of US, most serious in NY, and then Florida and California.
 
 To show more, we integrate a line chart showing the 7 days trend by using `altair` library and passing `JSON Graph` on the marker.
 
-image
+<img src="img/US_2.png" />
 
-## LA Map
+Link to [US MAP](US.html)
+
+## LA Map<a id="LAMap"> </a>
 
 To learn more on local, we want a map on community level. However, [the community level data](#communitylevel) that we web-straped were not integrated with geographic information. Fortunately, we find the `GeoJSON` of LA community file from data.gov.
 
 In this case, we use **choropleth map** to present the boundaries in the communities and also cluster the marker to show some clearer. In following map, the color shows the infective density which is calculated by number of confirmed case per 100,000 population.
 
-image
+<img src="img/LA_1.png" />
 
 We can tell that WeHo and BH have the most difficult situation in LA.
 
 Similarly, we provide community related information on the marker. 
 
-image
+<img src="img/LA_2.png" />
 
-# Hypotheses Test
+Link to [LA MAP](LA2.html)
+
+# Hypotheses Test<a id="HT"> </a>
 
 Another reason people getting numb with this situation is that politicians sometimes governors making overstated or downplaying statements which confused a lot of people.
 
 One of scary story was told by LA Mayor Eric Garcetti.
 
-image
+> <img src="img/LA_mayor.png" />
 
 We will exam his hypotheses through a **Hypotheses test**.
 
@@ -284,15 +294,32 @@ We **reject the null hypotheses** on a signficant level 0.05.
 
 It would be seen in another way of plotting.
 
-image
+<img src="img/plot06.png" />
 
 NYC cases is much serious in terms of quantity and growth rate.
 
-# Summary
+# Summary<a id="sm"> </a>
 
 ## Takeaway
 
-## Real takeaway
+### From data
+
+* US is still currently the epicenter of COVID-19 and cases are still growth fast.
+* CA is one of epicenter inside US. The situation in LA showing no trend to be the second New York but it is still too early to be optimized.
+* Be suspicious on the guess or projection from the authority. DO your own research.
+
+### Technically:
+
+* The U test has assumption on sample from i.i.d. while we did not have time to test it. The Chow's test on time series might be a good try if time allows.
+* Constructing a reusable class is fun. In my case, web scraping class helps a lot and see a potential for future usage.
+* While playing with web scraping or Geo plotting, some basic HTML knowledge could save a lot work.
+
+### Projectwise:
+
+* A plan is cruical to success. Although I much underestimated the workload of the project, I am still able to present my work completely in time.
+* Workload estimation would be perform before getting started. Although I finished work in time, I did too much overtime on it which might somehow affect on the quality.
+
+## $$Real takeaway for you!!$$
 
 * Stay at home.
 * Wear a mask and bring a hand sanitizer if you must go out.
