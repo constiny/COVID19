@@ -1,5 +1,4 @@
-
-# **A Quick Look on COVID-19 Situation of US and Your Neighborhood**
+# **A Quick Look on COVID-19 Situation of the US and Your Neighborhood**
 -----------------------
 
 # Table of Contents
@@ -31,9 +30,9 @@
 
 > **"The death of one man is a tragedy. The death of millions is a statistic."**    - Original by Kurt Tucholsky as a Joke
 
-On Apr 4th 2020, there are more than 1 **million** COVID19 case worldwide and more than 300,000 cases in US and keep surging. 2/3 of Americans were under lockdown. 
+On Apr 4th, 2020, there are more than 1 **million** COVID19 cases worldwide and more than 300,000 cases in the US and keep surging. 2/3 of Americans were under lockdown. 
 
-On one side, people don't know what happens around their neighborhood. On the other side, politicians has been making conflict and chaos statement about the situation. 
+On one side, people don't know what happens around their neighborhood. On the other side, politicians have been making conflict and chaos statements about the situation. 
 
 The rationale behind this project is that we want to awake people before they are getting numb with the situation. As a future Data Scientist, what can we do to help people?
 
@@ -41,18 +40,21 @@ Providing **relevant and precise** information to people.
 
 ## Goal
 
-There are two main objectives of this project, one is to provide an easy access method for people getting correct information of their neighborhood. 
+There are two main objectives of this project, one is to provide an easy access method for people getting correct information about their neighborhood. 
 
-The second is to test one of the scary statement made by Mayor of Los Angeles that LA was 5 days behind NYC on few days ago.
+The second is to test one of the scary statements made by Mayor of Los Angeles that LA was 5 days behind NYC on a few days ago.
 
 
 What's more, we will try exploring what can we learned from South Korea which is treated as the most successful country in controlling the COVID-19.
 
+
 ----------------
 
-# Where do we get data?
+# DATA
 
-One of the barriar of people getting infomation they need is various information source. We choosed most creditable and widely cited data source from Johns Hopkins. Additional, we will webstrap text content from press releases and transform into data we need.
+## Where do we get data?
+
+One of the barriers of people getting the information they need is various information sources. We chose the most creditable and widely cited data source from Johns Hopkins. Additionally, we will webstrap text content from press releases and transform them into the data we need.
 
 **Source** See [Appendix - Data Source](#DataSource)
 
@@ -65,7 +67,7 @@ We obtain two types of data representing the COVID-19 situation.
 
     * Date
     * Country (Only for US and Korea)
-    * States (Only for US)
+    * States (Only for the US)
     * Number of Test Perform
     * Number of Test Positive
     * Number of Test Negative    
@@ -75,27 +77,28 @@ We obtain two types of data representing the COVID-19 situation.
 
     * Date
     * Country 
-    * States (Only for US)
+    * States (Only for the US)
     * Community (Only for LA County)
     * Number of Confirmed Case
     * Number of Death Case
     * Number of Recovered Case   
     * Number of Active Case   
     
-Jump to [EDA](#EDA) if you are not interested in web straping and data cleaning.
+Jump to [EDA](#EDA) if you are not interested in web scraping and data cleaning.
 
 ## Data acquisition
 <a id="Dataacquisition"> </a>
-Beside the data were well organized and available for download, one most important technique for obtaining data is **web scraping**.
+Besides the data were well organized and available for download, one most important technique for obtaining data is **web scraping**.
 ### Web Scraping
-Here is a demonstration of web straping for sample page of a press release of the Department of Public Health of Los Angeles County.
+Here is a demonstration of web scraping for sample page of a press release of the Department of Public Health of Los Angeles County.
 > <img src="img/sample_data_LA1.png" />
 
-Every page would generate one single record through web straping. We could obtain the Date of a single record from the top left of page. 
+Every page would generate one single record through web scraping. We could obtain the Date of a single record from the top left of the page. 
 > <img src="img/sample_data_LA2.png" />
 From the bottom, we could get confirmed cases and its infective density for each community in LA county.
-The process is implement by a pre-define webscrap class `webscrape` including functions for getting tables, get text and get urls. The class definition is stored as `./src/web_scraping`.
+The process is implemented by a pre-define webscrap class `webscrape` including functions for getting tables, get text and get URLs. The class definition is stored as `./src/web_scraping`.
 Sample data as below.
+
 
 | city | April 08, 2020 | 
 |--------------------------|----|
@@ -105,7 +108,7 @@ Sample data as below.
 
 ### Pipeline
 
-Before merge everyday data, we need to double check data on consistency. Figure out some data were build on inconsist city name.
+Before merge everyday data, we need to double-check data on consistency. Figure out some data built on inconsistent city names.
 
 | city | March 26, 2020 | 
 |--------------------------|----|
@@ -129,12 +132,12 @@ We create rules to transform city name in a same scale and merge into a ready da
 -------------------
 ## EDA on Case Data<a id="case"> </a>
 
-There are two types of case data, one is cross-section data describe a single day all kind of record of different area. The other one is a panel data focused on one attribute of different area over time.
+There are two types of case data, one is cross-section data describe a single day all kinds of records of different areas. The other one is a panel data focused on one attribute of a different area over time.
 
 
 ### Cross-section data
 
-First, we takes a look at the schema of the dataset.
+First, we take a look at the schema of the dataset.
 
 |  #  | Column        |  Non-Null | Count | Dtype  | 
 | --- |  ------        |   --------| ------ |  -----  | 
@@ -157,13 +160,13 @@ Hence, we will explore the inner relationship among them through a pairwise scat
 
 <img src="img/plot01.png" />
 
-As we can see from the plots, **all the death, recovered and active case has a positive relationship on confirmed case.** So if we want to see a small number in death, we need to see a low level of confirm case.
+As we can see from the plots, **all the death, recovered and active case has a positive relationship on the confirmed case.** So if we want to see a small number in death, we need to see a low level of confirmed cases.
+
+----------------
 
 ### Panel Data
 
-We takes a look at the schema of panel.
-
-First, we takes a look at the schema of the dataset.
+First, We take a look at the schema of panel data.
 
 |  #  | Column        |  Non-Null | Count | Dtype  | 
 | --- |  ------        |   --------| ------ |  -----  | 
@@ -175,21 +178,23 @@ First, we takes a look at the schema of the dataset.
 | ...  | ...    | 263 | non-null |  int64 | 
 | 81  | 4/8/20    | 263 | non-null |  int64 | 
 
-For time series data, trend is much more important. As we can see below, **the increasing trend of confirmed cases has been acclarating since Early March** without a clear sign for slowing down.
+For time-series data, the trend is much more important. As we can see below, **the increasing trend of confirmed cases has been accelerating since Early March** without a clear sign for slowing down.
 
 <img src="img/plot02.png" />
 
-The recent growth of confirmed cases were contributed by US and West Euro countries. And US has shown the most worried sign in term of the most case without a slowing down trend.
+The recent growth of confirmed cases was contributed by US and West Euro countries. And the US has shown the most worrying sign in terms of the most case without a slowing downtrend.
 
 <img src="img/plot03.png" />
 
-Another takeaway from this plot, there are two coutries, China and South Korea were considered well controlled the COVID-19 while South Korea's example were repeatable which means massive test, quick tracking and quarantine.
+Another takeaway from this plot, there are two countries, China and South Korea were considered well controlled the COVID-19 while South Korea's example was repeatable which means massive tests, quick tracking, and quarantine.
 
 Next step, we will try to explore the relationship between Korean testing and cases.
 
+----------------
+
 ## EDA on Tesing Data<a id="test"> </a>
 
-Let's take a flight to seoul CDC and robbed their press release drafts and type into our computer.
+Let's take a flight to Seoul CDC and robbed their press release drafts and type into our computer.
 
 As usual, we first check on the data structure.
 
@@ -204,44 +209,50 @@ As usual, we first check on the data structure.
 | 5  | Being_tested | 59 | non-null |  int64 | 
 | 6  | Tested_negative | 59 | non-null |  int64 | 
 
-The `PCR_Confirmed` means the number of patient tested positive on the coronavirus through PCR method which is equivalent to confirmed case we talked before.
+The `PCR_Confirmed` means the number of patients tested positive on the coronavirus through the PCR method which is equivalent to the confirmed case we talked before.
 
-Since all variables was in a accumulated scale, we made a differentiate of the data on a one day lag. For instance, `new_testing` 
+Since all variables were on an accumulated scale, we made a differentiate of the data on a one day lag. For instance, `new_testing` 
 
 $$new testing(Day n)  =  Total(Day n)  -  Total(Day n - 1)$$
 
-and calulate the positive_rate by
+and calculate the positive_rate by
 
 $$positive rate(Day n)  =  \frac{PCR Confirmed(Day n)}{new testing(Day n)}$$
 
-We use similar method as before that creating pairwise scatter plot.
+We use a similar method as before that creating a pairwise scatter plot.
 
 <img src="img/plot04.png" />
 
 We did not observe a clear pattern between `new_testing` and `positive_rate`. 
 
+----------------
+
 ## Back to US<a id="states"> </a>
 
 Let travel back to Los Angeles, California, US on a time which seems not a good time for international travel.
 
-Although california has the most population among the states, california is not even the top 3 and has a relative flatten curve.
+Although California has the most population among the states, California is not even the top 3 and has a relative flatten the curve.
 
 <img src="img/plot05.png" />
 
-However, state is to large for us to perceive how is things going around. In order to fix the problem, we create two maps.
+However, states are too large for us to perceive how are things going around. Also, the best way to present geographical data is always, maps.
+
+----------------
 
 # Map<a id="Map"> </a>
 
+----------------
+
 ## US Map
-Since the case data includes the geographic information, we could plot all the point onto a map by `folium` library.
+Since the case data includes geographic information, we could plot all the points onto a map by `folium` library.
 
-* Radius: Larger indicates larger number of case
+* Radius: Larger indicates a larger number of case
 
-* Color: Sharper color indicates larger number of case
+* Color: Sharper color indicates a larger number of case
 
 <img src="img/US_1.png" />
 
-We could easily identify some epicenter of US, most serious in NY, and then Florida and California.
+We could easily identify some epicenter of the US, most serious in NY, and then Florida and California.
 
 To show more, we integrate a line chart showing the 7 days trend by using `altair` library and passing `JSON Graph` on the marker.
 
@@ -249,27 +260,31 @@ To show more, we integrate a line chart showing the 7 days trend by using `altai
 
 Link to [US MAP](US.html)
 
+----------------
+
 ## LA Map<a id="LAMap"> </a>
 
-To learn more on local, we want a map on community level. However, [the community level data](#communitylevel) that we web-straped were not integrated with geographic information. Fortunately, we find the `GeoJSON` of LA community file from data.gov.
+To learn more about local, we want a map on the community level. However, [the community level data](#communitylevel) that we web-scraped were not integrated with geographic information. Fortunately, we find the `GeoJSON` of the LA community file from data.gov.
 
-In this case, we use **choropleth map** to present the boundaries in the communities and also cluster the marker to show some clearer. In following map, the color shows the infective density which is calculated by number of confirmed case per 100,000 population.
+In this case, we use **choropleth map** to present the boundaries in the communities and also cluster the marker to show some clearer. In the following map, the color shows the infective density which is calculated by the number of confirmed cases per 100,000 population.
 
 <img src="img/LA_1.png" />
 
 We can tell that WeHo and BH have the most difficult situation in LA.
 
-Similarly, we provide community related information on the marker. 
+Similarly, we provide community-related information on the marker. 
 
 <img src="img/LA_2.png" />
 
 Link to [LA MAP](LA2.html)
 
+----------------
+
 # Hypotheses Test<a id="HT"> </a>
 
-Another reason people getting numb with this situation is that politicians sometimes governors making overstated or downplaying statements which confused a lot of people.
+Another reason people getting numb with this situation is that politicians sometimes governors making overstated or downplaying statements that confused a lot of people.
 
-One of scary story was told by LA Mayor Eric Garcetti.
+One scary story was told by LA Mayor Eric Garcetti.
 
 > <img src="img/LA_mayor.png" />
 
@@ -277,9 +292,9 @@ We will exam his hypotheses through a **Hypotheses test**.
 
 To be more specific, we rewrite his statement as the null hypothesis.
 
-> Null hypothesis H0: From now till Apr 1st (5 days after) LA county has same case level or even higher than NYC in Mar 23rd to Mar 27th. 
+> Null hypothesis H0: From now till Apr 1st (5 days after) LA county has the same case level or even higher than NYC from Mar 23rd to Mar 27th. 
 
-> Alternative hypothesis H1: From now till Apr 1st (5 days after) LA county has less case level than NYC in Mar 23rd to Mar 27th. 
+> Alternative hypothesis H1: From now till Apr 1st (5 days after) LA county has less case level than NYC from Mar 23rd to Mar 27th. 
 
 
 For such small sample size, the best option right now is Mann-Whitney U test. Mathmatically,
@@ -287,39 +302,43 @@ For such small sample size, the best option right now is Mann-Whitney U test. Ma
 >$$H_0 = P(NY case > LA case)=0.5$$
 >$$H_1 = P(NY case > LA case)>0.5$$
 
-By `scipy.stats` module, we could easily calculated the P-value and see original statement is valid or not under a signficant level 0.05.
+By `scipy.stats` module, we could easily calculate the P-value and see the original statement is valid or not on significance level 0.05.
 
-> P-value of the U-test is 0.006. 
-We **reject the null hypotheses** on a signficant level 0.05.
+> The P-value of the U-test is 0.006. 
+We **reject the null hypotheses** on significance level 0.05.
 
 It would be seen in another way of plotting.
 
 <img src="img/plot06.png" />
 
-NYC cases is much serious in terms of quantity and growth rate.
+NYC cases were much serious in terms of quantity and growth rate.
+
+----------------
 
 # Summary<a id="sm"> </a>
+
+----------------
 
 ## Takeaway
 
 ### From data
 
-* US is still currently the epicenter of COVID-19 and cases are still growth fast.
-* CA is one of epicenter inside US. The situation in LA showing no trend to be the second New York but it is still too early to be optimized.
+* US is still currently the epicenter of COVID-19 and cases are still growing fast.
+* CA is one of the epicenter inside the US. The situation in LA showing no trend to be the second New York but it is still too early to be optimized.
 * Be suspicious on the guess or projection from the authority. DO your own research.
 
 ### Technically:
 
-* The U test has assumption on sample from i.i.d. while we did not have time to test it. The Chow's test on time series might be a good try if time allows.
+* The U test has an assumption on the sample from i.i.d. while we did not have time to test it. The Chow's test on time series might be a good try if time allows.
 * Constructing a reusable class is fun. In my case, web scraping class helps a lot and see a potential for future usage.
-* While playing with web scraping or Geo plotting, some basic HTML knowledge could save a lot work.
+* While playing with web scraping or Geo plotting, some basic HTML knowledge could save a lot of work.
 
-### Projectwise:
+### Projects:
 
-* A plan is cruical to success. Although I much underestimated the workload of the project, I am still able to present my work completely in time.
-* Workload estimation would be perform before getting started. Although I finished work in time, I did too much overtime on it which might somehow affect on the quality.
+* A plan is crucial to success. Although I much underestimated the workload of the project, I am still able to present my work completed in time.
+* Workload estimation should be performed before getting started. Although I finished work in time, I did too much overtime on it which might somehow affect the quality.
 
-## $$Real takeaway for you!!$$
+## **Real takeaway for you!!**
 
 * Stay at home.
 * Wear a mask and bring a hand sanitizer if you must go out.
@@ -327,11 +346,11 @@ NYC cases is much serious in terms of quantity and growth rate.
 
 Most important:
 
-**Share information to people you love. Talk to people who ever share their love with you.**
+**Share information with people you love. Talk to people who ever share their love with you.**
 
-Learn more on data science.
+Learn more about data science.
 
-> **"It is only a tiny dust of this era, but to an ordinary family, is too much they can take."**
+> **"It is only tiny dust of this era, but to an ordinary family, is too much they can take."**
 
 > From a Chinese Poet lives in Wuhan the original epicenter in China.
 
@@ -354,13 +373,13 @@ Don't let the one you loved be the dust of the era.
     - States Historical Data https://covidtracking.com/api/states/daily.csv
 
 
-- **Webscrap korean testing data**
+- **Webscrap Korean testing data**
 
     Source: CDC of South Korean
     - sample data https://www.cdc.go.kr/board/board.es?mid=&bid=0030&act=view&list_no=366735
     
     
-- **Webscrap LA community level data**
+- **Webscrap LA community-level data**
 
     Source: The Department of Public Health of Los Angeles County
     - sample data http://publichealth.lacounty.gov/phcommon/public/media/mediapubhpdetail.cfm?prid=2298
@@ -377,3 +396,5 @@ Don't let the one you loved be the dust of the era.
 * Repository: https://github.com/constiny/COVID19
 
 * Jupyter Notebook: https://github.com/constiny/COVID19/blob/master/covid19.ipynb
+
+
