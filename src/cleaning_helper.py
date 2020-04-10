@@ -59,3 +59,25 @@ def aka_name(city_name):
     else:
         new_name += city_name
     return new_name
+
+def get_data_after(n, df, agg_col):
+
+    global_df2 = df.drop(["Lat", "Long"],axis=1).set_index(agg_col)
+    g = global_df2.groupby(agg_col)
+    global_df3 = g.sum()
+    global_df3.drop("Diamond Princess",inplace=True)
+#     global_df3.drop("Grand Princess",inplace=True)
+    global_df3 = global_df3.transpose()
+
+    day_after_n = {}
+
+    for country in global_df3.columns:
+        day_after_n[country] = global_df3[global_df3 > n][country].count()
+
+    df_f_n = pd.DataFrame(columns=day_after_n.keys(),index=range(1, max(day_after_n.values())+1))
+
+    for k, v in day_after_n.items():
+        if v > 15:
+            df_f_n.loc[:v, k] = list(global_df3.loc[global_df3.index[-v]:,k].values)
+            
+    return df_f_n.dropna(how='all', axis=1)
