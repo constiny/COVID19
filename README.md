@@ -34,7 +34,7 @@ On Apr 4th, 2020, there are more than 1 **million** COVID19 cases worldwide and 
 
 On one side, people don't know what happens around their neighborhood. On the other side, politicians have been making conflict and chaos statements about the situation. 
 
-The rationale behind this project is that we want to awake people before they are getting numb with the situation. As a future Data Scientist, what can we do to help people?
+The rationale behind this project is that we want to awake people before they are getting numb with the situation. As a Data Scientist, what can we do to help people?
 
 Providing **relevant and precise** information to people.
 
@@ -133,7 +133,7 @@ We create rules to transform city name in a same scale and merge into a ready da
 -------------------
 ## EDA on Case Data<a id="case"> </a>
 
-There are two types of case data, one is cross-section data describe a single day all kinds of records of different areas. The other one is a panel data focused on one attribute of a different area over time.
+There are two types of case data, one is cross-section data describe a single day all kinds of records of different areas. The other one is a Dataframe focused on one attribute of a different area over time.
 
 
 ### Cross-section data
@@ -214,11 +214,12 @@ The `PCR_Confirmed` means the number of patients tested positive on the coronavi
 
 Since all variables were on an accumulated scale, we made a differentiate of the data on a one day lag. For instance, `new_testing` 
 
-$$new testing(Day n)  =  Total(Day n)  -  Total(Day n - 1)$$
+<img src="https://render.githubusercontent.com/render/math?math=new testing(Day n)  =  Total(Day n)  -  Total(Day n - 1)">
 
 and calculate the positive_rate by
 
-$$positive rate(Day n)  =  \frac{PCR Confirmed(Day n)}{new testing(Day n)}$$
+<img src="https://render.githubusercontent.com/render/math?math=positive rate(Day n)  =  \frac{PCR Confirmed(Day n)}{new testing(Day n)}">
+
 
 We use a similar method as before that creating a pairwise scatter plot.
 
